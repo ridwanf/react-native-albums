@@ -3,10 +3,10 @@
 //import libraryto help create a Component
 import React from 'react';
 import { AppRegistry } from 'react-native';
-import Header from './src/components/header';
+import Header from './src/components/Header';
 //create a Component
 const App = () => (
-      <Header />
+      <Header headerText={'Albums'} />
   );
 
 //render it to the device
